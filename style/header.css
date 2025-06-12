@@ -1,0 +1,110 @@
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    z-index: 10;
+}
+.top-header{
+    background: linear-gradient(to bottom right, rgb(20, 85, 51),rgb(51,102,89),rgb(45, 83, 74));
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.left-header{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    margin-left: 30px;
+    align-items: center;
+}
+#imgheader{
+    width: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#judul{
+    color: rgb(243,239,232);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+
+    padding-left: 15px;
+
+
+    cursor: pointer;
+    
+}
+.middle-header{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+#search{
+    background-color: rgb(116, 131, 127);
+    height: 36px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.right-header{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav{
+    display: flex;
+    
+}
+.nav{
+    background-color: white;
+    border: 1px solid rgb(187,165,145);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.471);
+
+    cursor: pointer;
+    
+    
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    transition: box-shadow 0.5s,
+    background-color 0.5s;
+}
+#home:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 6px 6px rgb(187,165,145);
+}
+#about:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 6px 6px rgb(187,165,145);
+}
+#social:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 6px 6px rgb(187,165,145);
+}
+#education:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 6px 6px rgb(187,165,145);
+}
+#review:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 6px 6px rgb(187,165,145);
+}

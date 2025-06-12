@@ -1,0 +1,75 @@
+<div class="greeting">
+                <img id="imgprofil" src="img/perak.JPG" alt="">
+                <div class="introduction">
+                    <p id="hey-text" class="introduction-text">Hey, I'm Yahya Muhandar Fathana</p>
+                    <p class="introduction-text">I'm a <strong>Software developer</strong> and <strong>Video Editor</strong></p>
+                    <p id="textdesc" class="introduction-text"> An Information Systems student at the University of
+                        Indonesia with a specialization in video editing and
+                        creative content development. Experienced in utilizing
+                        Premiere Pro and Davinci Resolve to produce highquality videos. Dedicated to continuous learning and
+                        staying updated with the latest technologies in digital
+                        media.
+                    </p>
+                    <div class="contact-container">
+                        <img id="whatsapp" src="img/whatsapp.png" alt="">
+                        <button class="contact"> Contact me</button>
+                    </div>
+                </div>
+            </div>
+
+
+.greeting{
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.introduction{
+    margin-left: 20px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#hey-text{
+    font-size: 25px;
+    font-weight: 700;
+}
+#imgprofil{
+    width: 300px;
+    border-radius: 60px;
+
+    margin-left: 20px;
+    box-shadow: 2px 0 20px rgb(51,102,89);
+}
+
+.contact-container{
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#whatsapp{
+    width: 50px;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.contact{
+    margin: -4px;
+    font-family: roboto;
+    padding: 10px;
+    padding: 12px;
+
+    border: 2px solid white;
+    border-left: none;
+
+    border-radius: 100px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+
+    color: white;
+    background-color: rgb(48, 223, 81);
+}

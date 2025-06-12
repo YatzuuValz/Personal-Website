@@ -1,0 +1,83 @@
+.project-header{
+    font-size: 50px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.project{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(101, 101, 101);
+
+    background: linear-gradient(to bottom right,rgb(152, 160, 149),rgb(203, 212, 200),rgb(199, 206, 196));
+
+    /* flex-wrap: wrap; */
+}
+@media screen and (max-width: 1200px) {
+    .project {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 800px) {
+  .project {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.project h1{
+    display: flex;
+    flex-direction: column;
+}
+.project a > div{
+    margin: 20px;
+    aspect-ratio: 4 / 3;
+    
+    border-radius: 30px;
+    
+    box-shadow: 0px 0px 10px rgb(101, 101, 101);
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+    
+
+}
+.project a > div:hover{
+    transform:scale(1.04);
+}
+.project-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 2;
+
+    overflow: hidden;
+}
+.project-img img{
+    width: 100%;
+    object-fit: contain;
+}
+.project-description{
+    flex: 1;
+    margin: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    box-shadow: 0px -5px 10px rgb(108, 108, 108);
+    background-color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: large;
+    font-weight: 700;
+}

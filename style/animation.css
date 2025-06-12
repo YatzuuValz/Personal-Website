@@ -1,0 +1,32 @@
+.slide-up{
+    animation-name: slide-up;
+    animation-timeline: view();
+    animation-range: entry 0% cover 80vh;
+    
+}
+@keyframes slide-up{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.slide-left{
+    animation-name: slide-left;
+    animation-timeline: view();
+    animation-range: entry 10% cover 50vh;
+    
+}
+@keyframes slide-left{
+    0%{
+        opacity: 0;
+        transform: translatex(200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translatex(0);
+    }
+}

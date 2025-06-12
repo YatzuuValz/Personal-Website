@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#imgheader{
+    width: 30px;
+    border-radius: 5px;
+}
+#judul{
+    display: flex;
+    align-items: center; /* Vertically centers the text and image */
+    gap: 10px;
+
+    vertical-align: center;
+    background-color: rgb(51,102,89);
+    color: rgb(243,239,232);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    cursor: pointer;
+    
+}
+nav{
+    margin-top: 5px;
+}
+.nav{
+    border: 1px solid rgb(187,165,145);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    box-shadow: -2px 4px 5px rgba(0, 0, 0, 0.471);
+    
+    
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    transition: box-shadow 0.5s,
+    background-color 0.5s;
+}
+#home:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 6px 6px rgb(187,165,145);
+}
+#about:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 6px 6px rgb(187,165,145);
+}
+#social:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 6px 6px rgb(187,165,145);
+}
+#education:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 6px 6px rgb(187,165,145);
+}
+#review:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 6px 6px rgb(187,165,145);
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+main{
+    text-align: center;
+}
+#loginbox{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 450px;
+    border: 2px solid black;
+}
